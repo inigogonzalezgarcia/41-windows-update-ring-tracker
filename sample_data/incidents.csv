@@ -1,0 +1,5 @@
+number,short_description,priority,opened_at,resolved_at,kb,ring,devices,rollback
+INC0103870,No sound from USB headsets on two trading desks in the pilot after the September update,3 - Moderate,2026-09-26 08:41,2026-09-29 17:10,KB5124008,Ring 1 - Pilot,2,no
+INC0104311,Remote Desktop to admin jump hosts fails with 0xC000000D after the October update,3 - Moderate,2026-10-15 10:02,2026-10-29 12:30,KB5127648,Ring 1 - Pilot,6,no
+INC0104388,Trading floor: USB headsets with no audio (Code 10) on 14 desks after the October update,2 - High,2026-10-26 07:12,,KB5127648,Ring 2 - Broad,14,yes
+INC0104402,October update fails with 0x800f0922 on HP EliteBook 840 G8 laptops,3 - Moderate,2026-10-28 11:25,,KB5127648,Ring 2 - Broad,38,no
