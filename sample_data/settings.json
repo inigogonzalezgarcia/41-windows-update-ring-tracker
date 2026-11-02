@@ -1,0 +1,95 @@
+{
+  "organisation": "Contoso Markets",
+  "as_of": "2026-11-02 08:00",
+  "month": "",
+  "rings": [
+    {
+      "name": "Ring 0 - IT",
+      "order": 0,
+      "match": "Ring 0",
+      "quality_deferral_days": 0,
+      "deadline_days": 2,
+      "grace_days": 1,
+      "feature_deferral_days": 0,
+      "target_share": 0.02
+    },
+    {
+      "name": "Ring 1 - Pilot",
+      "order": 1,
+      "match": "Ring 1",
+      "quality_deferral_days": 3,
+      "deadline_days": 3,
+      "grace_days": 2,
+      "feature_deferral_days": 0,
+      "target_share": 0.1
+    },
+    {
+      "name": "Ring 2 - Broad",
+      "order": 2,
+      "match": "Ring 2",
+      "quality_deferral_days": 10,
+      "deadline_days": 5,
+      "grace_days": 2,
+      "feature_deferral_days": 0,
+      "target_share": 0.74
+    },
+    {
+      "name": "Ring 3 - VIP and trading floor",
+      "order": 3,
+      "match": "Ring 3",
+      "quality_deferral_days": 21,
+      "deadline_days": 5,
+      "grace_days": 2,
+      "feature_deferral_days": 0,
+      "target_share": 0.14,
+      "late": true
+    }
+  ],
+  "feature_target": "25H2",
+  "gate_compliance": 0.9,
+  "gate_failure_max": 0.03,
+  "gate_min_soak_days": 2,
+  "gate_incident_max_priority": 2,
+  "ring_late_days": 2,
+  "stale_days": 7,
+  "site_stale_share": 0.15,
+  "chase_critical_count": 50,
+  "pause_warning_days": 14,
+  "pause_critical_days": 28,
+  "vip_match": "trading desktop",
+  "vip_ring": "Ring 3 - VIP and trading floor",
+  "pilot_ring": "Ring 1 - Pilot",
+  "broad_ring": "Ring 2 - Broad",
+  "pilot_max_department_share": 0.5,
+  "pilot_model_coverage_min": 0.8,
+  "ring_size_tolerance": 0.3,
+  "trend_months": 3,
+  "trend_days": [
+    7,
+    14,
+    21
+  ],
+  "trend_targets": {
+    "7": 0.1,
+    "14": 0.6,
+    "21": 0.85
+  },
+  "failure_cluster_min": 5,
+  "model_failure_share_min": 0.2,
+  "eos_warning_days": 60,
+  "eos_critical_days": 30,
+  "site_owners": {
+    "London": "London desktop support (Tomasz Nowak)",
+    "Frankfurt": "Frankfurt IT (Lena Hoffmann)",
+    "Madrid": "Madrid IT (Lucía Romero)",
+    "Milan": "Milan IT (Marco Galli)"
+  },
+  "error_codes": {},
+  "owners": {
+    "rings": "Endpoint engineering",
+    "devices": "Desktop support leads",
+    "failures": "Endpoint engineering",
+    "composition": "Endpoint engineering",
+    "trend": "Head of end user computing"
+  }
+}

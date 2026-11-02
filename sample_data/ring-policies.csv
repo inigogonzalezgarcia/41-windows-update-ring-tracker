@@ -1,0 +1,7 @@
+displayName,id,source,assignedGroups,qualityUpdatesDeferralPeriodInDays,featureUpdatesDeferralPeriodInDays,deadlineForQualityUpdatesInDays,deadlineForFeatureUpdatesInDays,deadlineGracePeriodInDays,qualityUpdatesPaused,qualityUpdatesPauseStartDate,qualityUpdatesPauseExpiryDateTime,featureUpdatesPaused,lastModifiedDateTime
+WUfB Ring 0 - IT,5a1e0000-0000-4000-8000-000000000000,Intune,WUfB-Ring0-IT,0,0,2,2,1,false,,,false,2026-03-02 10:14
+WUfB Ring 1 - Pilot,5a1e0001-0000-4000-8000-000000000001,Intune,WUfB-Ring1-Pilot,3,0,3,5,2,false,,,false,2026-03-02 10:20
+WUfB Ring 2 - Broad,5a1e0002-0000-4000-8000-000000000002,Intune,WUfB-Ring2-Broad,10,0,5,7,2,false,,,false,2026-03-02 10:31
+WUfB Ring 2 - Broad (2024),5a1e0003-0000-4000-8000-000000000003,Intune,WUfB-Ring2-Broad-2024,7,0,7,7,3,false,,,false,2024-06-11 16:02
+WUfB Ring 3 - VIP and trading floor,5a1e0004-0000-4000-8000-000000000004,Intune,WUfB-Ring3-VIP-Trading,21,0,5,7,2,true,2026-09-28 17:40,2026-11-02 17:40,false,2026-09-28 17:40
+SUM Ring 2 - Broad (Madrid co-managed),5a1e0005-0000-4000-8000-000000000005,ConfigMgr,SUM-Ring2-Broad-Madrid,7,0,14,,,false,,,false,2025-11-20 09:45
